@@ -8,14 +8,19 @@ class NavBar extends React.Component {
 
   render() {
     return(
-      <div>
-        <li><Link to={"/"}>Home</Link></li>
-        <li><Link to={"/resume"}>Resume</Link></li>
-        <li><Link to={"/about"} >About</Link></li>
-        <li><Link to={"/blog"}>Blog</Link></li>
-        <li><Link to={"/projects"}>Projects</Link></li>
-        <li><Link to={"/contact"}>Contact</Link></li>
-      </div>
+      <nav>
+        <div className="nav-wrapper">
+          <a href="#" className="brand-logo">George Gilmer</a>
+          <ul id="nav-mobile" className="right hide-on-med-and-down">
+            <li><Link to={"/"}>Home</Link></li>
+            <li><Link to={"/resume"}>Resume</Link></li>
+            <li><Link to={"/about"} >About</Link></li>
+            <li><Link to={"/blog"}>Blog</Link></li>
+            <li><Link to={"/projects"}>Projects</Link></li>
+            <li><Link to={"/contact"}>Contact</Link></li>
+        </ul>
+        </div>
+      </nav>
     );
   }
 }
