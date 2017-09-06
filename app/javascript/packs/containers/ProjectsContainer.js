@@ -7,7 +7,8 @@ class ProjectsContainer extends React.Component {
   render() {
     return(
       <div>
-        projects container
+        Coin Gazer
+        Baby Authority
       </div>
 
     );
