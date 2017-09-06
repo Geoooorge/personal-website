@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
+import { HashRouter as Router, Link, Route } from 'react-router-dom';
 import createBrowserHistory from 'history/createBrowserHistory';
 import HomePage from '../components/HomePage'
 import Resume from '../components/Resume'
