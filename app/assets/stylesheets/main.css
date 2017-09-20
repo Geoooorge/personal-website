@@ -1,0 +1,22 @@
+body {
+  background-color: #cfd8dc;
+}
+.standard {
+  margin: 5rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.personal_logo {
+  background-color: black;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  padding: rem;
+}
