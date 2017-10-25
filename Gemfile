@@ -9,6 +9,8 @@ gem 'jquery-rails'
 gem 'webpacker', '~> 2.0'
 gem 'materialize-sass'
 gem 'material_icons'
+gem 'devise'
+
 
 group :development do
   gem 'listen', '~> 3.0.5'
