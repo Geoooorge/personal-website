@@ -1,0 +1,12 @@
+<h1>Edit Post</h1>
+
+<%= form_for @post, html: { method: :put } do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+
+  <%= f.label :body %>
+  <%= f.text_field :body %>
+  <%= f.submit "Update Post" %>
+<% end %>
+
+<h3>Delete Post</h3>

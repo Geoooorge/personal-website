@@ -1,0 +1,12 @@
+<h1>Posts</h1>
+
+<% if current_user %>
+  <%= link_to "New Post", new_post_path %>
+  <%= link_to "Sign Out", destroy_user_session_path, method: :delete %>
+<% end %>
+
+<% @posts.each do |post| %>
+  <li>
+    <a href="<%= post_path(post) %>"><%= post.title %></a> - <%= post.body %>
+  </li>
+<% end %>
